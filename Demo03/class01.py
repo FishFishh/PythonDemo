@@ -1,20 +1,11 @@
-print(ord('a'))  # 97
-print(chr(97))  # a
+import math
 
-score = int(input("请输入成绩："))
-if score > 100 & score < 0:
-    print("无意义")
-elif score == 100:
-    print("优秀")
-elif score > 90:
-    print("良好")
-elif score > 90:
-    print("良好")
-elif score > 80:
-    print("还行")
-elif score > 70:
-    print("一般")
-elif score > 60:
-    print("及格")
-elif score < 60:
-    print("没及格！")
+a = float(input("输入第一个边:"))
+b = float(input("输入第二个边:"))
+c = float(input("输入第三个边:"))
+if a + b > c and a + c > b and b + c > a:
+    h = (a+b+c)/2
+    p = math.sqrt(h*(h-a)*(h-b)*(h-c))
+    print("面积为%s" % p)
+else:
+    print("不是三角形")
