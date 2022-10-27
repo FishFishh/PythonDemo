@@ -13,7 +13,7 @@ print(animal)["tiger", "monkey", "penguis","snake","elephant"]
 animal.extend(" birds")
 print(animal)["tiger", "monkey", "penguis","snake","elephant"]
 animal.extend(["birds"])
-print(ani
-print(value，....
-sep = '
-end = ' \n’，file=sys. stdout, flush=False)F
+# print(ani
+# print(value，....
+# sep = '
+# end = ' \n’，file=sys. stdout, flush=False)
