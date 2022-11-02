@@ -32,3 +32,21 @@ s = 'abcdefg'
 print(s[::-1])
 print("==================")
 print([1, 2, 3] * 3)
+print("==================")
+
+name = 250;
+print("查询余额[输入1]")
+print("\t存款[输入2]\t")
+print("\t取款[输入3]\t")
+print("\t退出[输入4]\t")
+abc = input(f"{name}你好,输入:")
+if abc == 1:
+    print("查询余额[输入1]")
+elif abc == 2:
+    print("存款[输入2]")
+elif abc == 3:
+    print("取款[输入3]")
+elif abc == 4:
+    print("退出[输入4]")
+else:
+    print("看不懂")
